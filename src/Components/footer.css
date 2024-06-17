@@ -1,0 +1,30 @@
+.footer {
+  background-color: #340b58a3;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer-icons {
+  margin-bottom: 1rem;
+}
+
+.footer-icons a {
+  color: #fff;
+  margin: 0 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #e564ef; /* LinkedIn color */
+}
+
+.footer-info p {
+  margin: 0.5rem 0;
+  animation: none;
+  color: rgb(61, 12, 84);
+  font-weight: bold;
+  border-right: none;
+  white-space: normal;
+  letter-spacing: normal;
+}

@@ -1,0 +1,17 @@
+.menu {
+  align-items: flex;
+  justify-content: space-between;
+  display: flex;
+  padding: 1rem;
+}
+.Nav-menu {
+  display: flex;
+}
+.Nav-menu li {
+  padding: 0 1rem;
+  list-style-type: none;
+}
+.Nav-menu li a {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
