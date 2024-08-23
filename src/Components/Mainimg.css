@@ -1,0 +1,68 @@
+.Hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%;
+}
+
+.mask {
+  position: absolute; /* Ensure the mask covers the entire area */
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.562
+  ); /* Semi-transparent black mask */
+  z-index: 1;
+}
+
+.intro {
+  width: 2000px;
+  height: 600px;
+  object-fit: cover; /* Ensure the image covers the specified area */
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Offset the content to be perfectly centered */
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  color: #00000099;
+  z-index: 2; /* Ensure the content is above the mask */
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blinkCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+p {
+  overflow: hidden;
+  border-right: 0.15em solid rgba(255, 255, 255, 0.607);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typewriter 3.5s steps(40, end) 1s 1 normal both,
+    blinkCursor 0.75s steps(40, end) infinite;
+}

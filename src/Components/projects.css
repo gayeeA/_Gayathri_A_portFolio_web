@@ -1,0 +1,63 @@
+/* Container for the projects section */
+.projects-container {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Title styling */
+.projects-title {
+  font-size: 36px;
+  color: #6a2c91; /* Purple color */
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+/* Flexbox container for the project cards */
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+/* Project card container */
+.project-card {
+  background-color: #d9a7e0; /* Light purple background */
+  width: 350px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Image styling */
+.project-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Project information styling */
+.project-info h2 {
+  color: #4c2b72; /* Darker purple color */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-info h4 {
+  color: #333;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+/* GitHub link styling */
+.github-link {
+  color: #4c2b72; /* Darker purple color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
