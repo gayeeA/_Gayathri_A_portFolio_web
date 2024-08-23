@@ -1,3 +1,5 @@
+#view of my webpage
+![image](https://github.com/gayeeA/_Gayathri_A_portFolio_web/assets/145894167/957131a3-5b33-4605-a2cc-1c55292331c9)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
