@@ -22,7 +22,8 @@ const Profile = () => {
           </ul>
         </div>
         <div className="download_a">
-          <a href="https://drive.google.com/file/d/17Uudfh-HnBV9lpmXEIXHrRAdvk59Mnz_/view?usp=sharing" download>
+          <a href="https://drive.google.com/file/d/17Uudfh-HnBV9lpmXEIXHrRAdvk59Mnz_/view?usp=sharing"target="_blank" 
+    rel="noopener noreferrer" download>
             Open CV
           </a>
         </div>
