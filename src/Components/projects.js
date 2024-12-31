@@ -20,17 +20,17 @@ const Projects = () => {
             <strong>Technologies Used:</strong> HTML5, CSS3, JavaScript
             <br />
             <a
-              href="https://github.com/gayeeA/Youtubeclone"
+              href="https://youtubeclone-sigma-roan.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="github-link"
             >
-              View on GitHub
+              View Website
             </a>
           </div>
         </div>
         {/* project - 2 */}
-        <div className="project-card">
+        {/* <div className="project-card">
           <img className="project-image" src={project1} alt="YouTube Clone" />
           <div className="project-info">
             <h2>YOUTUBE CLONE</h2>
@@ -41,15 +41,15 @@ const Projects = () => {
             <strong>Technologies Used:</strong> HTML5, CSS3, JavaScript
             <br />
             <a
-              href="https://github.com/gayeeA/Youtubeclone"
+              href="https://youtubeclone-sigma-roan.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="github-link"
             >
-              View on GitHub
+              View Website
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
