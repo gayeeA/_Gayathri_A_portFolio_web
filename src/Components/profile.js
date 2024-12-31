@@ -22,8 +22,8 @@ const Profile = () => {
           </ul>
         </div>
         <div className="download_a">
-          <a href=""/src/asserts/GAYATHRI_ANDE_RESUME.docx" download>
-            Download CV
+          <a href="https://drive.google.com/file/d/17Uudfh-HnBV9lpmXEIXHrRAdvk59Mnz_/view?usp=sharing" download>
+            Open CV
           </a>
         </div>
       </div>
